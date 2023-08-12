@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.parabank.pom.testcase.CustomerLoginTest">
+        <methods>
+          <include name="loginShouldSucceed"/>
+          <include name="loginWithUsernameShouldFail"/>
+          <include name="loginWithPasswordShouldFail"/>
+          <include name="loginWithinvalidPasswordShouldFail"/>
+          <include name="browserLaunch"/>
+          <include name="tearDown"/>
+          <include name="loginShouldFail"/>
+        </methods>
+      </class> <!-- com.parabank.pom.testcase.CustomerLoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
